@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#separação{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#perfil{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+.caixasdeperfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: brown;
+    margin: auto;
+}
+#caixasdeperfil1{
+    background: #ffffff url("profile-icons/blackbeard.jpeg") no-repeat top center ;
+}
+#caixasdeperfil2{
+    background: #ffffff url("profile-icons/cafu.jpg") no-repeat top center;
+}
+#caixasdeperfil3{
+    background: #ffffff url("profile-icons/lbk.jpeg") no-repeat center center;
+}
+#caixasdeperfil > p{
+    text-align: center;
+    padding-top: px;
+    color: black;
+}
+table{
+    width: 50vw;
+    margin:5vh auto; 
+    padding: 5px;
+    border:1px solid black;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+td > img{
+    width: 100px;
+}
+/*PRIMEIRO LUGAR*/
+#td1-1{
+    color: gold;
+    font-size: 1.5rem;
+}
+#td1-1::after{
+    content: "🥇";
+}
+/*SEGUNDO LUGAR*/
+#td1-2{
+    color: silver;
+    font-size: 1.5rem;
+}
+#td1-2::after{
+    content: "🥈";
+}
+/*TERCEIRO LUGAR*/
+#td1-3{
+    color: burlywood;
+    font-size: 1.5rem;
+}
+#td1-3::after{
+    content: "🥉";
+}
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    width: 100vw;
+}

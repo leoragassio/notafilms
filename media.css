@@ -1,0 +1,19 @@
+@media (max-width:950px){
+    #separação{
+        flex-direction:column ;
+    }
+    #perfil{
+        flex-direction: row;
+        width: 100vw;
+    }
+    .caixasdeperfil {
+        width: 33vw;
+        border-radius: 10%;
+        background-color: brown;
+        margin: auto 1vw;
+    }
+    table{
+        width: 30vw;
+    }
+}
+
