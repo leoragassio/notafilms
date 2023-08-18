@@ -26,9 +26,8 @@ header{
 .caixasdeperfil{
     width: 15vw;
     height: 15vw;
-    border-radius: 50%;
     background-color: brown;
-    margin: auto;
+    margin: 0px auto;
 }
 #caixasdeperfil1{
     background: #ffffff url("profile-icons/blackbeard.jpeg") no-repeat top center ;
@@ -41,7 +40,6 @@ header{
 }
 #caixasdeperfil > p{
     text-align: center;
-    padding-top: px;
     color: black;
 }
 table{
