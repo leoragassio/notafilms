@@ -5,12 +5,14 @@
     #perfil{
         flex-direction: row;
         width: 100vw;
+        margin: 10vh auto;
     }
     .caixasdeperfil {
-        width: 33vw;
-        border-radius: 10%;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
         background-color: brown;
-        margin: auto 1vw;
+        margin: auto;
     }
     table{
         width: 30vw;
